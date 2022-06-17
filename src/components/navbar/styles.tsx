@@ -42,4 +42,6 @@ export const NavItem = styled.li`
         opacity: 1;
         width: 100%;
     }
+
+    
 `

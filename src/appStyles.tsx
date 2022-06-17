@@ -7,16 +7,33 @@ export const Container = styled.div`
 `
 
 export const Header = styled.div`
+    &:before {
+        content:"";
+        width: 100vw;
+        height: 13vh;
+        background-color: black;
+        opacity: 0.6;
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
     width: calc(100vw - 60px);
     display: flex;
-    position: absolute;
+    position: fixed;
+    top: 0;
     justify-content: space-around;
     color: white;
-    top: 20px;
-    left: 8px;
-    padding: 0 30px;
+    top: 0px;
+    left: 0px;
+    padding: 20px 30px;
+    z-index: 2;
+
 `
 
 export const Logo = styled.div`
     flex: 1;
+    z-index: 2;
 `
