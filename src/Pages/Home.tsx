@@ -1,13 +1,13 @@
 import React from 'react';
-
+import { Container } from '../styles/HomeStyles';
 type HomeProps = {
 
 }
 
 const Home: React.FunctionComponent<HomeProps> = () => (
-    <div>
-        HOME
-    </div>
+    <Container>
+       
+    </Container>
 );
 
 export default Home;
