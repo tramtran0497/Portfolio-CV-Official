@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, TitleWrapper, Title, Biology, AvatarWrapper, BiologyWrapper, TitleBiology, Text } from '../styles/MyWordsStyles';
+import { Container, TitleWrapper, Title, Biology, AvatarWrapper, BiologyWrapper, TitleBiology, Text, Story, StoryTitle, StoryWrapper } from '../styles/MyWordsStyles';
 import avatar from '../images/avatar.jpg';
 import { ImQuotesLeft, ImQuotesRight} from "react-icons/im";
 
@@ -28,6 +28,24 @@ const MyWords: React.FunctionComponent<MyWordsProps> = () => (
                 </Text>
             </Biology>
         </BiologyWrapper>
+
+        <StoryWrapper>
+            <StoryTitle>Itinerary Story</StoryTitle>
+            <Story>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque necessitatibus, ad magnam minus, eum nam facilis modi natus at quisquam, quia harum autem aut sequi omnis sapiente. At, optio dolorem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit, rem nihil nam libero ipsum est expedita, pariatur, magnam quam aperiam blanditiis enim quod nostrum nobis! Nobis consectetur velit illum?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quidem amet eum distinctio similique accusamus reiciendis excepturi doloribus? Minus, optio libero repellat quidem ad voluptates quae nam eius vero quibusdam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsa molestiae amet ut inventore dolorem, quis id tempore voluptatum debitis! Mollitia itaque vel porro, ducimus ipsa non alias tempore veritatis!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque necessitatibus, ad magnam minus, eum nam facilis modi natus at quisquam, quia harum autem aut sequi omnis sapiente. At, optio dolorem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit, rem nihil nam libero ipsum est expedita, pariatur, magnam quam aperiam blanditiis enim quod nostrum nobis! Nobis consectetur velit illum?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quidem amet eum distinctio similique accusamus reiciendis excepturi doloribus? Minus, optio libero repellat quidem ad voluptates quae nam eius vero quibusdam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsa molestiae amet ut inventore dolorem, quis id tempore voluptatum debitis! Mollitia itaque vel porro, ducimus ipsa non alias tempore veritatis!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque necessitatibus, ad magnam minus, eum nam facilis modi natus at quisquam, quia harum autem aut sequi omnis sapiente. At, optio dolorem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit, rem nihil nam libero ipsum est expedita, pariatur, magnam quam aperiam blanditiis enim quod nostrum nobis! Nobis consectetur velit illum?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quidem amet eum distinctio similique accusamus reiciendis excepturi doloribus? Minus, optio libero repellat quidem ad voluptates quae nam eius vero quibusdam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsa molestiae amet ut inventore dolorem, quis id tempore voluptatum debitis! Mollitia itaque vel porro, ducimus ipsa non alias tempore veritatis!
+            </Story>
+        </StoryWrapper>
     </Container>
 );
 

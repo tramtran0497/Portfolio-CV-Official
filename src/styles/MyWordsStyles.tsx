@@ -15,7 +15,8 @@ export const TitleWrapper = styled.div`
     text-align: center;
     background-image: url(${myWordsBg});
     background-repeat: no-repeat;
-    opacity: 1.9;
+    opacity: 1;
+    overflow: hidden;
 `
 
 export const Title = styled.h1`
@@ -68,5 +69,28 @@ export const Text = styled.div`
     font-family: Philosopher;
     letter-spacing: 1px;
     line-height: 30px;
+`
+
+export const StoryWrapper = styled.div`
+    width: calc(100vw - 200px);
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+`
+
+export const StoryTitle = styled.h2`
+    font-family: Philosopher;
+    font-size: 40px;
+    font-weight: 300;
+`
+
+export const Story = styled.p`
+    width: 70%;
+    align-self: flex-end;
+    letter-spacing: 1px;
+    font-family: Philosopher;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
 `
 
