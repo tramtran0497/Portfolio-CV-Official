@@ -28,12 +28,13 @@ export const Title = styled.h1`
 
 export const FrontEnd = styled.div`
     width: calc(100% - 200px);
-    padding: 100px;
+    padding: 50px 100px;
     display: flex;
     flex-direction: column;
+    height: max-content;
 `
 
-export const FrontEndTitle = styled.h2`
+export const TitleField = styled.h2`
     font-weight: 300;
     letter-spacing: 5px;
 `
@@ -79,5 +80,25 @@ export const ItemLevel = styled.div`
 `
 
 export const BackEnd = styled.div`
-    
+    width: calc(100% - 200px);
+    height: max-content;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+`
+
+export const DevOp = styled.div`
+     width: calc(100% - 200px);
+    height: max-content;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+`
+
+export const Others = styled.div`
+     width: calc(100% - 200px);
+    height: max-content;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
 `

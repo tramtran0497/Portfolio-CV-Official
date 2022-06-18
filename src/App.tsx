@@ -9,7 +9,10 @@ import ItFields from './Pages/ItFields';
 
 const App: React.FunctionComponent = () => {
 
-  const listFE = ["HTML", "CSS/SCSS", "JAVASCRIPT", "TYPESCRIPT", "REACT(HOOK)", "REACT-NATIVE", "REDUX", "NEXTJS"]
+  const listFE = ["HTML", "CSS/SCSS", "JAVASCRIPT", "TYPESCRIPT", "REACT(HOOK)", "REACT-NATIVE", "REDUX", "NEXTJS"];
+  const listBE = ["NODEJS (EXPRESS)", "REST API", "MONGODB", "MONGO CLOUD"];
+  const listDevOp = ["DOCKER"];
+  const listOthers = ["MATERIALS UI", "BOOTSTRAP", "RECHARTS", "CLOUDINARY", "EMAILJS", "SENDGRID"];
 
   return (
     <Container>
@@ -21,7 +24,7 @@ const App: React.FunctionComponent = () => {
       </Header>
       {/* <Home/> */}
       {/* <MyWords/> */}
-      <ItFields listFrontEnd={listFE}/>
+      <ItFields listFrontEnd={listFE} listBackEnd={listBE} listDevOp={listDevOp} listOthers={listOthers}/>
       <Footer>
         <Copy>
           copyright © 2022 . Tram Tran
