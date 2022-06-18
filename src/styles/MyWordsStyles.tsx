@@ -24,7 +24,6 @@ export const Title = styled.h1`
     top: calc(50% - 100px);
     left: calc(50% - 500px);
     font-size: 70px;
-    font-family: Philosopher;
     font-weight: 300;
     letter-spacing: 4px;
 `
@@ -55,7 +54,6 @@ export const Biology = styled.div`
 `
 
 export const TitleBiology = styled.h2`
-    font-family: Philosopher;
     font-size: 40px;
     font-weight: 300;
     text-align: center;
@@ -66,7 +64,6 @@ export const Text = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Philosopher;
     letter-spacing: 1px;
     line-height: 30px;
 `
@@ -79,7 +76,6 @@ export const StoryWrapper = styled.div`
 `
 
 export const StoryTitle = styled.h2`
-    font-family: Philosopher;
     font-size: 40px;
     font-weight: 300;
 `
@@ -88,7 +84,6 @@ export const Story = styled.p`
     width: 70%;
     align-self: flex-end;
     letter-spacing: 1px;
-    font-family: Philosopher;
     line-height: 30px;
     font-size: 18px;
     text-align: justify;

@@ -5,8 +5,12 @@ import NavBar from './components/navbar/NavBar';
 import logo from './images/logo.png';
 import { Container, Header, Logo, Footer, Copy, Contact, ContactTitle, Button, Input, Social, SocialItem } from './appStyles';
 import { FaDocker, FaGithub, FaLinkedin, FaLocationArrow } from "react-icons/fa";
+import ItFields from './Pages/ItFields';
 
 const App: React.FunctionComponent = () => {
+
+  const listFE = ["HTML", "CSS/SCSS", "JAVASCRIPT", "TYPESCRIPT", "REACT(HOOK)", "REACT-NATIVE", "REDUX", "NEXTJS"]
+
   return (
     <Container>
       <Header>
@@ -16,7 +20,8 @@ const App: React.FunctionComponent = () => {
         <NavBar/>
       </Header>
       {/* <Home/> */}
-      <MyWords/>
+      {/* <MyWords/> */}
+      <ItFields listFrontEnd={listFE}/>
       <Footer>
         <Copy>
           copyright © 2022 . Tram Tran

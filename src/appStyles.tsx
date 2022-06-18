@@ -47,7 +47,6 @@ export const Footer = styled.div`
 `
 
 export const Copy = styled.p`
-    font-family: Philosopher;
     font-size: 15px;
     flex: 1;
     margin: 0;
@@ -64,7 +63,6 @@ export const Contact = styled.div`
 export const ContactTitle = styled.h3`
     width: 80%;
     text-align: center;
-    font-family: Philosopher;
     font-weight: 300;
     font-size: 20px;
 `
