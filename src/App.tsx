@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './Pages/Home';
 import MyWords from './Pages/MyWords';
+import Certificate from './Pages/Certificate';
 import NavBar from './components/navbar/NavBar';
 import logo from './images/logo.png';
 import { Container, Header, Logo, Footer, Copy, Contact, ContactTitle, Button, Input, Social, SocialItem } from './appStyles';
@@ -24,7 +25,8 @@ const App: React.FunctionComponent = () => {
       </Header>
       {/* <Home/> */}
       {/* <MyWords/> */}
-      <ItFields listFrontEnd={listFE} listBackEnd={listBE} listDevOp={listDevOp} listOthers={listOthers}/>
+      {/* <ItFields listFrontEnd={listFE} listBackEnd={listBE} listDevOp={listDevOp} listOthers={listOthers}/> */}
+      <Certificate/>
       <Footer>
         <Copy>
           copyright © 2022 . Tram Tran
