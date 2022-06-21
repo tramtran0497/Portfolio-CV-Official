@@ -80,4 +80,10 @@ export const CertificateTitle = styled.div`
     position: absolute;
     font-size: 20px;
     left: 46%;
+    cursor: pointer;
+    transition: all .25s ease-in;
+
+    &:hover{
+        text-decoration: underline;
+    }
 `
