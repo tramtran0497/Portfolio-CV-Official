@@ -8,6 +8,7 @@ import logo from './images/logo.png';
 import { Container, Header, Logo, Footer, Copy, Contact, ContactTitle, Button, Input, Social, SocialItem } from './appStyles';
 import { FaDocker, FaGithub, FaLinkedin, FaLocationArrow } from "react-icons/fa";
 import ItFields from './Pages/ItFields';
+import Projects from './Pages/Projects';
 
 const App: React.FunctionComponent = () => {
 
@@ -28,7 +29,8 @@ const App: React.FunctionComponent = () => {
       {/* <MyWords/> */}
       {/* <ItFields listFrontEnd={listFE} listBackEnd={listBE} listDevOp={listDevOp} listOthers={listOthers}/> */}
       {/* <Certificate/> */}
-      <Education/>
+      {/* <Education/> */}
+      <Projects/>
       <Footer>
         <Copy>
           copyright © 2022 . Tram Tran
