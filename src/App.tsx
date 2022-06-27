@@ -5,11 +5,11 @@ import Certificate from './Pages/Certificate';
 import Education from './Pages/Education';
 import NavBar from './components/navbar/NavBar';
 import logo from './images/logo.png';
-import { Container, Header, Logo, Footer, Copy, Contact, ContactTitle, Button, Input, Social, SocialItem } from './appStyles';
+import { Container, Header, Logo, Footer, Copy, Contact, ContactTitle, Button, Input, Social, SocialItem, Image } from './appStyles';
 import { FaDocker, FaGithub, FaLinkedin, FaLocationArrow } from "react-icons/fa";
 import ItFields from './Pages/ItFields';
 import Projects from './Pages/Projects';
-import {BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 const App: React.FunctionComponent = () => {
 
@@ -23,7 +23,9 @@ const App: React.FunctionComponent = () => {
       <BrowserRouter>
         <Header>
           <Logo>
-              <img src={logo} alt="logo" />
+              <Link to="/">
+                <Image src={logo} alt='logo'/>
+              </Link>
           </Logo>
           <NavBar/>
         </Header>
@@ -48,8 +50,14 @@ const App: React.FunctionComponent = () => {
             <Input placeholder='Eg: 041-xxx-xxxx'/>
             <Button>SENDING<FaLocationArrow style={{fontSize: "20px", marginLeft: "10px"}}/></Button>
           </Contact>
-          <Social>
-            <SocialItem><FaDocker/></SocialItem>
+          <Social>              
+            <a href="https://hub.docker.com/u/tramtran0497" target="_blank" rel="noreferrer">
+
+            <SocialItem>
+                <FaDocker/>
+            </SocialItem>
+            </a>
+
             <SocialItem><FaGithub style={{margin: "0 30px"}}/></SocialItem>
             <SocialItem><FaLinkedin/></SocialItem>
           </Social>

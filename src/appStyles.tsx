@@ -38,6 +38,10 @@ export const Logo = styled.div`
     z-index: 2;
 `
 
+export const Image = styled.img`
+    cursor: pointer;
+`
+
 export const Footer = styled.div`
     display: flex;
     align-items: flex-end;

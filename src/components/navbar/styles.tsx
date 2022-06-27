@@ -17,6 +17,7 @@ export const NavItem = styled.li`
     padding:10px;
     position: relative;
     z-index: 0;
+    color: white;
 
     &:before, &:after {
         position: absolute;
