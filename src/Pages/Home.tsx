@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Button } from '../styles/HomeStyles';
+import {Link} from 'react-router-dom';
 type HomeProps = {
 
 }
