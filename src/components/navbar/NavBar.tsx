@@ -8,9 +8,6 @@ type NavBarProps = {
 
 const NavBar: React.FunctionComponent<NavBarProps> = () => (
     <Container>
-        {/* <NavItem>
-            <Link  to="/">Home</Link>
-        </NavItem> */}
         <Link to="/" style={{textDecoration: "none"}}>
             <NavItem>
                 Home

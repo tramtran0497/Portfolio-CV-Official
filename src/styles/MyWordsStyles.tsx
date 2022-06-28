@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import myWordsBg from '../images/myWordsBg.png';
 
 export const Container = styled.div`
     width: 100vw;
@@ -7,25 +6,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-`
-
-export const TitleWrapper = styled.div`
-    width: 100vw;
-    height: 89vh;
-    text-align: center;
-    background-image: url(${myWordsBg});
-    background-repeat: no-repeat;
-    opacity: 1;
-    overflow: hidden;
-`
-
-export const Title = styled.h1`
-    position: absolute;
-    top: calc(50% - 100px);
-    left: calc(50% - 500px);
-    font-size: 70px;
-    font-weight: 300;
-    letter-spacing: 4px;
 `
 
 export const BiologyWrapper = styled.div`
@@ -46,6 +26,11 @@ export const AvatarWrapper = styled.div`
     justify-content: center;
     box-shadow: 8px 10px 10px 3px lightgray;
     margin-right: 20px;
+`
+
+export const Image = styled.img`
+    width: 90%;
+    height: 125%;
 `
 
 export const Biology = styled.div`

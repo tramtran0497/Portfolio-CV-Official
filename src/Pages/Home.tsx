@@ -7,7 +7,11 @@ type HomeProps = {
 
 const Home: React.FunctionComponent<HomeProps> = () => (
     <Container>
-        <Button>CONTACT ME</Button>
+        <a href='#contact' target="_self">
+            <Button>
+                CONTACT ME
+            </Button>
+        </a>
     </Container>
 );
 

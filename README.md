@@ -1,7 +1,7 @@
 # PORTFOLIO
 
 ## To-dos
-- Link "Contact Me" button.
+- Link "Contact Me" button. `Done`
 - Link Navbar item. `Done`
 - Link logo. `Done`
 - Write contents for "Itinerary story" and biology.

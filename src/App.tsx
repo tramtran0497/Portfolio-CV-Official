@@ -4,12 +4,12 @@ import MyWords from './Pages/MyWords';
 import Certificate from './Pages/Certificate';
 import Education from './Pages/Education';
 import NavBar from './components/navbar/NavBar';
-import logo from './images/logo.png';
-import { Container, Header, Logo, Footer, Copy, Contact, ContactTitle, Button, Input, Social, SocialItem, Image } from './appStyles';
-import { FaDocker, FaGithub, FaLinkedin, FaLocationArrow } from "react-icons/fa";
 import ItFields from './Pages/ItFields';
 import Projects from './Pages/Projects';
-import {BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import {BrowserRouter, Routes, Route } from "react-router-dom";
+import { Container, Header} from './appStyles';
+import Footer from './components/footer/Footer';
+import Logo from './components/logo/Logo';
 
 const App: React.FunctionComponent = () => {
 
@@ -22,11 +22,7 @@ const App: React.FunctionComponent = () => {
     <Container>
       <BrowserRouter>
         <Header>
-          <Logo>
-              <Link to="/">
-                <Image src={logo} alt='logo'/>
-              </Link>
-          </Logo>
+          <Logo/>
           <NavBar/>
         </Header>
     
@@ -38,36 +34,7 @@ const App: React.FunctionComponent = () => {
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-
-        <Footer>
-          <Copy>
-            copyright © 2022 . Tram Tran
-          </Copy>
-          <Contact>
-            <ContactTitle>Leave your contact here! Thank you.</ContactTitle>
-            <Input placeholder='Eg: Tram'/>
-            <Input placeholder='Eg: tram@gmail'/>
-            <Input placeholder='Eg: 041-xxx-xxxx'/>
-            <Button>SENDING<FaLocationArrow style={{fontSize: "20px", marginLeft: "10px"}}/></Button>
-          </Contact>
-          <Social>              
-            <a href="https://hub.docker.com/u/tramtran0497" target="_blank" rel="noreferrer">
-              <SocialItem>
-                <FaDocker/>
-              </SocialItem>
-            </a>
-            <a href="https://github.com/tramtran0497" target="_blank" rel="noreferrer">
-              <SocialItem>
-                <FaGithub style={{margin: "0 30px"}}/>
-              </SocialItem>
-            </a>
-            <a href="https://www.linkedin.com/in/tram-tran-924301207/" target="_blank" rel="noreferrer">
-              <SocialItem>
-                <FaLinkedin/>
-              </SocialItem>
-            </a>
-          </Social>
-        </Footer>
+        <Footer/>
       </BrowserRouter>
     </Container>
   );

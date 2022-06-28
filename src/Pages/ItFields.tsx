@@ -1,5 +1,8 @@
 import React from 'react';
-import {BackEnd, Container, FrontEnd, Title, TitleWrapper, ItemLevel, ItemTitle, ItemSkill, TitleField, DevOp, Others} from '../styles/ItFieldsStyles';
+import {Container} from '../styles/ItFieldsStyles'; 
+import itFieldsBg from '../images/itFieldBg.png';
+import Title from '../components/titlePage/Title';
+import Skill from '../components/skills/Skills';
 
 type ItFieldsProps = {
     listFrontEnd: string[],
@@ -10,65 +13,11 @@ type ItFieldsProps = {
 
 const ItFields: React.FunctionComponent<ItFieldsProps> = ({listFrontEnd, listBackEnd, listDevOp, listOthers}) => (
     <Container>
-        <TitleWrapper>
-            <Title>MY TECHNICAL SKILLS</Title>
-        </TitleWrapper>
-
-        <FrontEnd>
-            <TitleField>FRONT-END</TitleField>
-            {
-                listFrontEnd.length ? listFrontEnd.map((item: string) => {
-                    return(
-                        <ItemSkill>
-                            <ItemTitle>{item}</ItemTitle>
-                            <ItemLevel/>
-                        </ItemSkill> 
-                    );     
-                }) : null
-            };
-        </FrontEnd>
-
-        <BackEnd>
-            <TitleField>BACK-END</TitleField>
-                {
-                    listBackEnd.length ? listBackEnd.map((item: string) => {
-                        return(
-                            <ItemSkill>
-                                <ItemTitle>{item}</ItemTitle>
-                                <ItemLevel/>
-                            </ItemSkill> 
-                        );     
-                    }) : null
-                };
-        </BackEnd>
-
-        <DevOp>
-            <TitleField>DEVOPS</TitleField>
-                {
-                    listDevOp.length ? listDevOp.map((item: string) => {
-                        return(
-                            <ItemSkill>
-                                <ItemTitle>{item}</ItemTitle>
-                                <ItemLevel/>
-                            </ItemSkill> 
-                        );     
-                    }) : null
-                };
-        </DevOp>
-
-        <Others>
-            <TitleField>OTHERS: LIBRARIES & TOOLS</TitleField>
-                {
-                    listOthers.length ? listOthers.map((item: string) => {
-                        return(
-                            <ItemSkill>
-                                <ItemTitle>{item}</ItemTitle>
-                                <ItemLevel/>
-                            </ItemSkill> 
-                        );     
-                    }) : null
-                };
-        </Others>
+        <Title bg={itFieldsBg}/>
+        <Skill title="FRONT-END" listSkills={listFrontEnd}/>
+        <Skill title="BACK-END" listSkills={listBackEnd}/>
+        <Skill title="DEVOPS" listSkills={listDevOp}/>
+        <Skill title="OTHERS: LIBRARIES & TOOLS" listSkills={listOthers}/>
     </Container>
 );
 

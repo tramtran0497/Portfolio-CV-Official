@@ -1,5 +1,7 @@
 import React from 'react';
-import {Container, Title, TitleWrapper} from '../styles/ProjectsStyles';
+import {Container,} from '../styles/ProjectsStyles';
+import projectsBg from '../images/projectdBg.png';
+import Title from '../components/titlePage/Title';
 
 type ProjectsProps = {
 
@@ -7,9 +9,7 @@ type ProjectsProps = {
 
 const Projects: React.FunctionComponent<ProjectsProps> = () => (
     <Container>
-        <TitleWrapper>
-            <Title>MY OWN PROJECTS</Title>
-        </TitleWrapper>
+        <Title bg={projectsBg}/>
     </Container>
 );
 

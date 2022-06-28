@@ -1,21 +1,18 @@
 import React from 'react';
-import { Container, TitleWrapper, Title, Biology, AvatarWrapper, BiologyWrapper, TitleBiology, Text, Story, StoryTitle, StoryWrapper } from '../styles/MyWordsStyles';
+import { Container, Biology, AvatarWrapper, Image, BiologyWrapper, TitleBiology, Text, Story, StoryTitle, StoryWrapper } from '../styles/MyWordsStyles';
 import avatar from '../images/avatar.jpg';
+import myWordsBg from '../images/myWordsBg.png';
 import { ImQuotesLeft, ImQuotesRight} from "react-icons/im";
+import Title from '../components/titlePage/Title';
 
-type MyWordsProps = {
-
-};
+type MyWordsProps = {};
 
 const MyWords: React.FunctionComponent<MyWordsProps> = () => (
     <Container>
-        <TitleWrapper>
-            <Title>PASSIONS & PERSONALITY</Title>
-        </TitleWrapper>
-
+        <Title bg={myWordsBg}/>
         <BiologyWrapper>
             <AvatarWrapper>
-                <img src={avatar} alt="avatar" width="90%" height="125%"/>
+                <Image src={avatar} alt="avatar"/>
             </AvatarWrapper>
             <Biology>
                 <TitleBiology>A few words from myself</TitleBiology>
