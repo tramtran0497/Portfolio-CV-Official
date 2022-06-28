@@ -6,38 +6,35 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: wheat;
 `
 
 export const Wrapper = styled.div`
     display: flex;
-    align-items: center;
     justify-content: space-around;
     padding: 100px 0 ;
 `
 
 export const Time = styled.div`
     flex: 1;
+    height: max-content;
     display: flex;
     justify-content: center;
     position: relative;
 `
 
 export const TimeTree = styled.div`
-    width: 3px;
-    height: 180vh;
-    background-color: black;
+    width: 6px;
+    height: 209vh;
+    background-color: #e2aa27;
+    border: 10px solid #b46363;
 `
 
 export const TimePeriod = styled.div`
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     transition: all .25s ease-in;
     left: 35%;
-    cursor: pointer;
-
-     &:hover {
-        color: #f8c652;
-     }
 `
 
 export const CertificateWrapper = styled.div`

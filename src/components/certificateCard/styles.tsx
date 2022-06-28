@@ -24,6 +24,7 @@ export const CertificateTitle = styled.div`
     left: 46%;
     cursor: pointer;
     transition: all .25s ease-in;
+    color: black;
 
     &:hover{
         text-decoration: underline;

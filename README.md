@@ -10,5 +10,5 @@
 - Adding levels for It knowledge.
 - Create roving navbar on right side.
 - Click certificate images -> showing certificate with large size.
-- Link title certificate to link website certificate.
+- Link title certificate to link website certificate. `Done`
 - Projects Page content.

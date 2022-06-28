@@ -6,14 +6,17 @@ type CertificateCardProps = {
     nameImage: string,
     certificateName: string,
     top: string,
+    href: string,
 };
 
-const CertificateCard : React.FunctionComponent<CertificateCardProps> = ({image, nameImage, certificateName, top}) => (
+const CertificateCard : React.FunctionComponent<CertificateCardProps> = ({image, nameImage, certificateName, top, href}) => (
     <Container>
          <ImageWrapper>
             <Image src={image} alt={nameImage}/>
         </ImageWrapper>
-        <CertificateTitle  style={{top: top}}>{certificateName}</CertificateTitle>
+        <a href={href} target="_blank" rel="noreferrer">
+            <CertificateTitle  style={{top: top}}>{certificateName}</CertificateTitle>
+        </a>
     </Container>
 );
 
