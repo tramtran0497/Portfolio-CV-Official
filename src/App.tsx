@@ -52,14 +52,20 @@ const App: React.FunctionComponent = () => {
           </Contact>
           <Social>              
             <a href="https://hub.docker.com/u/tramtran0497" target="_blank" rel="noreferrer">
-
-            <SocialItem>
+              <SocialItem>
                 <FaDocker/>
-            </SocialItem>
+              </SocialItem>
             </a>
-
-            <SocialItem><FaGithub style={{margin: "0 30px"}}/></SocialItem>
-            <SocialItem><FaLinkedin/></SocialItem>
+            <a href="https://github.com/tramtran0497" target="_blank" rel="noreferrer">
+              <SocialItem>
+                <FaGithub style={{margin: "0 30px"}}/>
+              </SocialItem>
+            </a>
+            <a href="https://www.linkedin.com/in/tram-tran-924301207/" target="_blank" rel="noreferrer">
+              <SocialItem>
+                <FaLinkedin/>
+              </SocialItem>
+            </a>
           </Social>
         </Footer>
       </BrowserRouter>

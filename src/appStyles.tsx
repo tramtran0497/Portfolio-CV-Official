@@ -109,7 +109,7 @@ export const SocialItem = styled.div`
     font-size: 30px;
     cursor: pointer;
     transition: all .25s ease-in;
-
+    color: black;
     &:hover {
         color: #f8c652;
     }
