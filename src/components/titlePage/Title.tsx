@@ -1,12 +1,13 @@
 import React from 'react';
 import {TitleWrapper, TitleHead} from './styles';
 type TitleProps = {
-    bg: string
+    bg: string,
+    title: string
 };
 
-const Title: React.FunctionComponent<TitleProps> = ({bg}) => (
+const Title: React.FunctionComponent<TitleProps> = ({bg, title}) => (
     <TitleWrapper bg={bg}>
-        <TitleHead>PASSIONS & PERSONALITY</TitleHead>
+        <TitleHead>{title}</TitleHead>
     </TitleWrapper>
 );
 

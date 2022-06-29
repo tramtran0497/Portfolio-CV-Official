@@ -15,7 +15,7 @@ type CertificateProps = {
 
 const Certificate: React.FunctionComponent<CertificateProps> = () => (
     <Container>
-        <Title bg={certificateBg}/>
+        <Title bg={certificateBg} title="CERTIFICATE"/>
         <Wrapper>
             <Time>
                 <TimeTree/>

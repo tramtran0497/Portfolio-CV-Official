@@ -9,7 +9,7 @@ type MyWordsProps = {};
 
 const MyWords: React.FunctionComponent<MyWordsProps> = () => (
     <Container>
-        <Title bg={myWordsBg}/>
+        <Title bg={myWordsBg} title="PASSION & PERSONALITY"/>
         <BiologyWrapper>
             <AvatarWrapper>
                 <Image src={avatar} alt="avatar"/>

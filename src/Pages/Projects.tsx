@@ -9,7 +9,7 @@ type ProjectsProps = {
 
 const Projects: React.FunctionComponent<ProjectsProps> = () => (
     <Container>
-        <Title bg={projectsBg}/>
+        <Title bg={projectsBg} title="PROJECTS"/>
     </Container>
 );
 

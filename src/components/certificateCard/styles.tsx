@@ -12,6 +12,27 @@ export const ImageWrapper = styled.div`
     cursor: pointer;
 `
 
+export const ImageWrapperLarge = styled.div`
+    width: 90vw;
+    height: 80vh;
+    content: "";
+    background-color: #d7cece;
+    z-index: 1;
+    position: fixed;
+    top: 120px;
+    left: 50px;
+`
+
+export const ImageLarge = styled.img`
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    z-index: 2;
+`
+
 export const Image = styled.img`
     width: 100%;
     height: 100%;
