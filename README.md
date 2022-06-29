@@ -7,7 +7,7 @@
 - Write contents for "Itinerary story" and biology.
 - Using Emailjs for contact form. 
 - Link social media icons. `Done`
-- Adding levels for It knowledge.
+- Adding levels for It knowledge. `Done`
 - Create roving navbar on right side.
 - Click certificate images -> showing certificate with large size.
 - Link title certificate to link website certificate. `Done`

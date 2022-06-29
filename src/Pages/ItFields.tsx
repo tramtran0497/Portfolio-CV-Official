@@ -3,12 +3,13 @@ import {Container} from '../styles/ItFieldsStyles';
 import itFieldsBg from '../images/itFieldBg.png';
 import Title from '../components/titlePage/Title';
 import Skill from '../components/skills/Skills';
+import { List } from '../data/skillsData';
 
 type ItFieldsProps = {
-    listFrontEnd: string[],
-    listBackEnd: string[],
-    listDevOp: string[],
-    listOthers: string[],
+    listFrontEnd: List[],
+    listBackEnd: List[],
+    listDevOp: List[],
+    listOthers: List[],
 };
 
 const ItFields: React.FunctionComponent<ItFieldsProps> = ({listFrontEnd, listBackEnd, listDevOp, listOthers}) => (
