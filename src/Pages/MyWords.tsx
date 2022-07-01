@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Biology, AvatarWrapper, Image, BiologyWrapper, TitleBiology, Text, Story, StoryTitle, StoryWrapper } from '../styles/MyWordsStyles';
 import avatar from '../images/avatar.jpg';
-import myWordsBg from '../images/myWordsBg.png';
+import myWordsBg from '../images/myWordsBg.jpg';
 import { ImQuotesLeft, ImQuotesRight} from "react-icons/im";
 import Title from '../components/titlePage/Title';
 
@@ -9,7 +9,7 @@ type MyWordsProps = {};
 
 const MyWords: React.FunctionComponent<MyWordsProps> = () => (
     <Container>
-        <Title bg={myWordsBg} title="PASSION & PERSONALITY"/>
+        <Title bg={myWordsBg} title="PASSION & PERSONALITY" top="30%" left="39%"/>
         <BiologyWrapper>
             <AvatarWrapper>
                 <Image src={avatar} alt="avatar"/>

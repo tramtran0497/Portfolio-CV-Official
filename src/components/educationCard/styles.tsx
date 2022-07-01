@@ -10,10 +10,11 @@ export const Description = styled.p`
     line-height: 30px;
     letter-spacing: 1px;
     border-radius: 20px;
-    border: 1px solid black;
     z-index: 1;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, #DA4453, #89216B) ;
 `
-
 export const EducationItem = styled.div`
     display: flex;
     align-items: center;

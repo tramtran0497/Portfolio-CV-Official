@@ -4,7 +4,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #daf9da;
 `
 
 export const EducationWrapper = styled.div`
@@ -14,6 +13,7 @@ export const EducationWrapper = styled.div`
     flex-direction: column;
     position: relative;
     justify-content: space-around;
-    padding: 50px 0;
+    padding: 50px;
+    margin-top: 50px;
 ` 
 

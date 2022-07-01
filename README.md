@@ -11,3 +11,4 @@
 - Click certificate images -> showing certificate with large size. `Done`
 - Link title certificate to link website certificate. `Done`
 - Projects Page content.
+- Animation skills levels.

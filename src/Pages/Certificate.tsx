@@ -6,7 +6,7 @@ import certificate3 from '../images/certificate2021(3).png';
 import certificate4 from '../images/certificate2022(1).png';
 import certificate5 from '../images/certificate2022(2).jpg';
 import Title from '../components/titlePage/Title';
-import certificateBg from '../images/certificateBg.png';
+import certificateBg from '../images/certificateBg.jpg';
 import CertificateCard from '../components/certificateCard/CertificateCard';
 
 type CertificateProps = {
@@ -15,7 +15,7 @@ type CertificateProps = {
 
 const Certificate: React.FunctionComponent<CertificateProps> = () => (
     <Container>
-        <Title bg={certificateBg} title="CERTIFICATE"/>
+        <Title bg={certificateBg} title="CERTIFICATE" top="30%" left="10%"/>
         <Wrapper>
             <Time>
                 <TimeTree/>

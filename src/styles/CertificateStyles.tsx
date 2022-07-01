@@ -6,7 +6,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: wheat;
 `
 
 export const Wrapper = styled.div`
@@ -25,7 +24,7 @@ export const Time = styled.div`
 
 export const TimeTree = styled.div`
     width: 6px;
-    height: 209vh;
+    height: 225vh;
     background-color: #e2aa27;
     border: 10px solid #b46363;
 `

@@ -14,7 +14,7 @@ type ItFieldsProps = {
 
 const ItFields: React.FunctionComponent<ItFieldsProps> = ({listFrontEnd, listBackEnd, listDevOp, listOthers}) => (
     <Container>
-        <Title bg={itFieldsBg} title="TECHNOLOGY SKILLS"/>
+        <Title bg={itFieldsBg} title="TECHNOLOGY SKILLS" top="20%" left="10%"/>
         <Skill title="FRONT-END" listSkills={listFrontEnd}/>
         <Skill title="BACK-END" listSkills={listBackEnd}/>
         <Skill title="DEVOPS" listSkills={listDevOp}/>

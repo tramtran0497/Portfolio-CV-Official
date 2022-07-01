@@ -16,7 +16,7 @@ export const ImageWrapperLarge = styled.div`
     width: 90vw;
     height: 80vh;
     content: "";
-    background-color: #d7cece;
+    background-color: #f3d9d9;
     z-index: 1;
     position: fixed;
     top: 120px;
