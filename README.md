@@ -10,5 +10,5 @@
 - Adding levels for It knowledge. `Done`
 - Click certificate images -> showing certificate with large size. `Done`
 - Link title certificate to link website certificate. `Done`
-- Projects Page content.
+- Projects Page write content.
 - Animation skills levels.

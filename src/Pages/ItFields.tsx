@@ -10,11 +10,13 @@ type ItFieldsProps = {
     listBackEnd: List[],
     listDevOp: List[],
     listOthers: List[],
+    listUI: List[],
 };
 
-const ItFields: React.FunctionComponent<ItFieldsProps> = ({listFrontEnd, listBackEnd, listDevOp, listOthers}) => (
+const ItFields: React.FunctionComponent<ItFieldsProps> = ({listFrontEnd, listBackEnd, listDevOp, listOthers, listUI}) => (
     <Container>
         <Title bg={itFieldsBg} title="TECHNOLOGY SKILLS" top="20%" left="10%"/>
+        <Skill title="UI/UX" listSkills={listUI}/>
         <Skill title="FRONT-END" listSkills={listFrontEnd}/>
         <Skill title="BACK-END" listSkills={listBackEnd}/>
         <Skill title="DEVOPS" listSkills={listDevOp}/>

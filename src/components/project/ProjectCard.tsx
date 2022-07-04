@@ -1,26 +1,28 @@
 import React from "react";
-import {Container, Right, Image, Left, Title, IntroWrapper, Intro, TechStack} from "./styles";
+import { ProjectProps } from "../../data/projectsData";
+import {Container, Right, Image, Left, Title, IntroWrapper, Intro, TechStack, TechWrapper} from "./styles";
 
 type ProjectCardProps = {
-    image: string,
-    nameImg: string,
-    title: string,
-    introText: string,
-    techStacks: string,
+    project: ProjectProps, 
 };
 
-const ProjectCard: React.FunctionComponent<ProjectCardProps> = ({image, nameImg, techStacks, title, introText}) => {
+const ProjectCard: React.FunctionComponent<ProjectCardProps> = ({project}) => {
     return(
         <Container>
             <Right>
-                <Image src={image} alt={nameImg}/>
+                <Image src={project.image} alt={project.nameImg}/>
             </Right>
             <Left>
-                <Title>{title}</Title>
+                <Title>{project.title}</Title>
                 <IntroWrapper>
-                    <Intro>{introText}</Intro>
+                    <Intro>{project.introText}</Intro>
+                    <TechWrapper>
+                        {
+                            project.techStacks && project.techStacks.map((stack: string) => <TechStack>{stack}</TechStack>)
+                        }
+                    </TechWrapper>
                 </IntroWrapper>
-                <TechStack>{techStacks}</TechStack>
+                
             </Left>
         </Container>
     );

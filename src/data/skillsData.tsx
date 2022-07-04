@@ -3,6 +3,13 @@ export type List = {
     level: string
 };
 
+export const listUI: List[] = [
+    {
+        name: "Figma",
+        level: "80%"
+    }
+];
+
 export const listFrontEnd: List[] = [
     {
         name: "HTML",
