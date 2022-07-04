@@ -9,7 +9,7 @@ const Footer: React.FunctionComponent<FooterProps> = () => (
         <Copy>
             copyright © 2022 . Tram Tran
         </Copy>
-          <Contact id='contact'>
+          <Contact>
             <ContactTitle>Leave your contact here! Thank you.</ContactTitle>
             <Input placeholder='Eg: Tram'/>
             <Input placeholder='Eg: tram@gmail'/>

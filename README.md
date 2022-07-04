@@ -12,3 +12,5 @@
 - Link title certificate to link website certificate. `Done`
 - Projects Page write content.
 - Animation skills levels.
+- Deploy Web.
+- Write content for this project at README.md
