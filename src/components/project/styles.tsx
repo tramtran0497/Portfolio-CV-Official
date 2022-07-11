@@ -50,10 +50,11 @@ export const Intro = styled.p`
   text-align: justify;
   letter-spacing: 1px;
   line-height: 25px;
+  margin-bottom: 30px;
 `;
 
 export const TechStack = styled.p`
-  width: 28%;
+  width: 40%;
   font-size: 18px;
   letter-spacing: 1px;
   margin: 10px;
