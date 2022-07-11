@@ -6,7 +6,7 @@ import Education from './Pages/Education';
 import NavBar from './components/navbar/NavBar';
 import ItFields from './Pages/ItFields';
 import Projects from './Pages/Projects';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Container, Header } from './appStyles';
 import Footer from './components/footer/Footer';
 import Logo from './components/logo/Logo';
@@ -15,7 +15,7 @@ import { listBackEnd, listFrontEnd, listDevOp, listOthers, listUI } from './data
 const App: React.FunctionComponent = () => {
   return (
     <Container>
-      <BrowserRouter>
+      <HashRouter>
         <Header>
           <Logo />
           <NavBar />
@@ -41,7 +41,7 @@ const App: React.FunctionComponent = () => {
           <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </Container>
   );
 };

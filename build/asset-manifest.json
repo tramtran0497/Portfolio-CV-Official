@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/Portfolio-CV-Official/static/js/main.fff7b2a5.js",
+    "static/media/cv.png": "/Portfolio-CV-Official/static/media/cv.f10ab4350f173dcca024.png",
+    "static/media/teetea.png": "/Portfolio-CV-Official/static/media/teetea.c84a76e95d208cb0557e.png",
+    "static/media/homeBg.png": "/Portfolio-CV-Official/static/media/homeBg.d08f6778110d215df676.png",
+    "static/media/avatar.jpg": "/Portfolio-CV-Official/static/media/avatar.343d88f86d939e784128.jpg",
+    "static/media/itFieldBg.png": "/Portfolio-CV-Official/static/media/itFieldBg.d177591cc9e38d9de886.png",
+    "static/media/projectdBg.png": "/Portfolio-CV-Official/static/media/projectdBg.414feb8c502847ce2c27.png",
+    "static/media/certificate2022(1).png": "/Portfolio-CV-Official/static/media/certificate2022(1).0e8a924b48776732d569.png",
+    "static/media/certificate2021(3).png": "/Portfolio-CV-Official/static/media/certificate2021(3).ada10aa39abbe82f2568.png",
+    "static/media/certificate2021(1).png": "/Portfolio-CV-Official/static/media/certificate2021(1).b4423820e223675d85ee.png",
+    "static/media/certificate2021(2).png": "/Portfolio-CV-Official/static/media/certificate2021(2).17601479dbf5181df2cc.png",
+    "static/media/myWordsBg.jpg": "/Portfolio-CV-Official/static/media/myWordsBg.291725878756386fd60d.jpg",
+    "static/media/flagWorld.png": "/Portfolio-CV-Official/static/media/flagWorld.8e67f6db104b92cc538e.png",
+    "static/media/educationBg.jpg": "/Portfolio-CV-Official/static/media/educationBg.b2985533a4816d12830e.jpg",
+    "static/media/certificate2022(2).jpg": "/Portfolio-CV-Official/static/media/certificate2022(2).8b5bf375d0a7194522a0.jpg",
+    "static/media/shibasushiLogo.png": "/Portfolio-CV-Official/static/media/shibasushiLogo.8eb4a3a11a777cd1e9ff.png",
+    "static/media/certificateBg.jpg": "/Portfolio-CV-Official/static/media/certificateBg.2336641d7f340ca0df45.jpg",
+    "static/media/LabUniLogo.jpeg": "/Portfolio-CV-Official/static/media/LabUniLogo.097678a5c222edb45eac.jpeg",
+    "static/media/coferlogo.jpeg": "/Portfolio-CV-Official/static/media/coferlogo.88855c5872e7613c9f8d.jpeg",
+    "index.html": "/Portfolio-CV-Official/index.html",
+    "main.fff7b2a5.js.map": "/Portfolio-CV-Official/static/js/main.fff7b2a5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fff7b2a5.js"
+  ]
+}
