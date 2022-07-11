@@ -6,8 +6,8 @@ import Education from './Pages/Education';
 import NavBar from './components/navbar/NavBar';
 import ItFields from './Pages/ItFields';
 import Projects from './Pages/Projects';
-import {BrowserRouter, Routes, Route } from "react-router-dom";
-import { Container, Header} from './appStyles';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Container, Header } from './appStyles';
 import Footer from './components/footer/Footer';
 import Logo from './components/logo/Logo';
 import { listBackEnd, listFrontEnd, listDevOp, listOthers, listUI } from './data/skillsData';
@@ -17,22 +17,33 @@ const App: React.FunctionComponent = () => {
     <Container>
       <BrowserRouter>
         <Header>
-          <Logo/>
-          <NavBar/>
+          <Logo />
+          <NavBar />
         </Header>
-    
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/mywords" element={<MyWords />} />
-          <Route path="/itfields" element={<ItFields listFrontEnd={listFrontEnd} listBackEnd={listBackEnd} listDevOp={listDevOp} listOthers={listOthers} listUI={listUI}/>} />
+          <Route
+            path="/itfields"
+            element={
+              <ItFields
+                listFrontEnd={listFrontEnd}
+                listBackEnd={listBackEnd}
+                listDevOp={listDevOp}
+                listOthers={listOthers}
+                listUI={listUI}
+              />
+            }
+          />
           <Route path="/certificate" element={<Certificate />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </Container>
   );
-}
+};
 
 export default App;
