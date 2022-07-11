@@ -47,7 +47,7 @@ export const teeTea: ProjectProps = {
 export const profile: ProjectProps = {
   image: cv,
   nameImg: 'profile',
-  techStacks: ['React(Hook)', 'Styled-components', 'Typescript', 'AOS', 'React-Dom-Route'],
+  techStacks: ['React(Hook)', 'Styled-components', 'Typescript', 'AOS', 'React-Dom-Route', 'Figma'],
   title: 'Curriculum vitae',
   introText: 'This is my own profile, you can see my whole world through the website.',
   link: '',
