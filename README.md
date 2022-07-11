@@ -6,7 +6,7 @@
 - Link Navbar item. `Done`
 - Link logo. `Done`
 - Write contents for "My story" and biology. `Done`
-- Using Emailjs for contact form.
+- Using Emailjs for contact form. `Done`
 - Link social media icons. `Done`
 - Adding levels for It knowledge. `Done`
 - Click certificate images -> showing certificate with large size. `Done`
@@ -22,3 +22,5 @@
 - Applied Figma to design. Link: https://www.figma.com/file/6NjRnWuJVp0vEqGpXLUWP6/PORTFOLIO?node-id=0%3A1
 - Applied Typescript.
 - Applied styled-components.
+- How to use .env in typescript.
+- How to use emailjs.

@@ -14,7 +14,7 @@ export const Copy = styled.p`
   margin: 0;
 `;
 
-export const Contact = styled.div`
+export const Contact = styled.form`
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -53,6 +53,13 @@ export const Button = styled.button`
   &:hover {
     color: #f8c652;
   }
+`;
+
+export const Success = styled.p`
+  display: flex;
+  align-items: center;
+  color: green;
+  text-align: center;
 `;
 
 export const Social = styled.div`
