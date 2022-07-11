@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Portfolio-CV-Official/static/js/main.fff7b2a5.js",
+    "main.js": "/Portfolio-CV-Official/static/js/main.4002acd2.js",
     "static/media/cv.png": "/Portfolio-CV-Official/static/media/cv.f10ab4350f173dcca024.png",
     "static/media/teetea.png": "/Portfolio-CV-Official/static/media/teetea.c84a76e95d208cb0557e.png",
     "static/media/homeBg.png": "/Portfolio-CV-Official/static/media/homeBg.d08f6778110d215df676.png",
@@ -20,9 +20,9 @@
     "static/media/LabUniLogo.jpeg": "/Portfolio-CV-Official/static/media/LabUniLogo.097678a5c222edb45eac.jpeg",
     "static/media/coferlogo.jpeg": "/Portfolio-CV-Official/static/media/coferlogo.88855c5872e7613c9f8d.jpeg",
     "index.html": "/Portfolio-CV-Official/index.html",
-    "main.fff7b2a5.js.map": "/Portfolio-CV-Official/static/js/main.fff7b2a5.js.map"
+    "main.4002acd2.js.map": "/Portfolio-CV-Official/static/js/main.4002acd2.js.map"
   },
   "entrypoints": [
-    "static/js/main.fff7b2a5.js"
+    "static/js/main.4002acd2.js"
   ]
 }

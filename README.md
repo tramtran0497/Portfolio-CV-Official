@@ -1,6 +1,7 @@
 # PORTFOLIO
 
-Demo: https://62cca139679fbd191bc7bfcb--glittery-crumble-e9bdf6.netlify.app/projects
+Demo Netlify: https://62cca139679fbd191bc7bfcb--glittery-crumble-e9bdf6.netlify.app/projects
+Demo GitHub: https://tramtran0497.github.io/Portfolio-CV-Official/
 
 ## To-dos
 
@@ -15,8 +16,9 @@ Demo: https://62cca139679fbd191bc7bfcb--glittery-crumble-e9bdf6.netlify.app/proj
 - Link title certificate to link website certificate. `Done`
 - Projects Page write content. `Done`
 - Animation skills levels. `Done`
-- Deploy Web.
+- Deploy Web. `Done`
 - Write content for this project at README.md `Done`
+- Responsive Web
 
 ## What did I learn?
 
