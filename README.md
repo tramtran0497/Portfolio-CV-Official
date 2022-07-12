@@ -28,3 +28,6 @@ Demo GitHub: https://tramtran0497.github.io/Portfolio-CV-Official/
 - Applied styled-components.
 - How to use .env in typescript.
 - How to use emailjs.
+- Applied responsive web design.
+- Prettier config link: https://prettier.io/playground/
+- .gitignore generator link: https://www.toptal.com/developers/gitignore

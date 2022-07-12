@@ -7,6 +7,17 @@ export const Container = styled.ul`
   justify-content: space-between;
   background-color: transparent;
   list-style: none;
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+
+  @media only screen and (min-width: 992px) {
+    display: flex;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    display: flex;
+  }
 `;
 
 export const NavItem = styled.li`
@@ -44,5 +55,13 @@ export const NavItem = styled.li`
   &:hover:after {
     opacity: 1;
     width: 100%;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 20px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 24px;
   }
 `;

@@ -18,6 +18,18 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  @media only screen and (min-width: 768px) {
+    background-size: contain;
+    margin-top: 70px;
+    height: max-content;
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -27,6 +39,14 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin: 30px;
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
 `;
 
 export const Svg = styled.svg`

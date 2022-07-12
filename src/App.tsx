@@ -11,6 +11,7 @@ import { Container, Header } from './appStyles';
 import Footer from './components/footer/Footer';
 import Logo from './components/logo/Logo';
 import { listBackEnd, listFrontEnd, listDevOp, listOthers, listUI } from './data/skillsData';
+import HamNavBar from './hamburgerNavBar/HamNavBar';
 
 const App: React.FunctionComponent = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FunctionComponent = () => {
         <Header>
           <Logo />
           <NavBar />
+          <HamNavBar />
         </Header>
 
         <Routes>

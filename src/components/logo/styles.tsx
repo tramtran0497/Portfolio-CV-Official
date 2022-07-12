@@ -7,4 +7,18 @@ export const Container = styled.div`
 
 export const Image = styled.img`
   cursor: pointer;
+  @media only screen and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: 50px;
+    height: 50px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: 60px;
+    height: 60px;
+  }
 `;
