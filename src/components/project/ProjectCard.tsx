@@ -10,6 +10,7 @@ import {
   Intro,
   TechStack,
   TechWrapper,
+  LinkAccess,
 } from './styles';
 
 type ProjectCardProps = {
@@ -27,14 +28,9 @@ const ProjectCard: React.FunctionComponent<ProjectCardProps> = ({ project, aos }
         <Title>{project.title}</Title>
         <IntroWrapper>
           <Intro>{project.introText}</Intro>
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: 'black', textDecoration: 'none', fontSize: '20px', cursor: 'pointer' }}
-          >
+          <LinkAccess href={project.link} target="_blank" rel="noreferrer">
             The Demo Link
-          </a>
+          </LinkAccess>
           <TechWrapper>
             {project.techStacks &&
               project.techStacks.map((stack: string) => <TechStack>{stack}</TechStack>)}
