@@ -14,4 +14,13 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   padding: 100px 0;
+  @media only screen and (min-width: 768px) {
+    padding: 0px;
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
 `;

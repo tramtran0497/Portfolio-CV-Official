@@ -36,7 +36,13 @@ const CertificateCard: React.FunctionComponent<CertificateCardProps> = ({
       {isChosen ? (
         <ImageWrapperLarge>
           <IoIosClose
-            style={{ position: 'absolute', top: '10px', right: '20px', fontSize: '40px' }}
+            style={{
+              position: 'absolute',
+              top: '10px',
+              right: '20px',
+              fontSize: '40px',
+              color: 'white',
+            }}
             onClick={() => setIsChosen(!isChosen)}
           />
           <ImageLarge src={image} alt={nameImage} />
