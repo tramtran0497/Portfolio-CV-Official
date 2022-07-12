@@ -5,7 +5,7 @@ type TitleWrapperProps = {
 };
 export const TitleWrapper = styled.div<TitleWrapperProps>`
   width: 100%;
-  height: 89vh;
+  height: 100vh;
   background-image: url(${(props) => props.bg});
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,4 +18,15 @@ export const TitleHead = styled.h1`
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 4px;
+  @media only screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 40px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 50px;
+  }
 `;

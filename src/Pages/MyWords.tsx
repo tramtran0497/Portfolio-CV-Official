@@ -20,7 +20,7 @@ type MyWordsProps = {};
 
 const MyWords: React.FunctionComponent<MyWordsProps> = () => (
   <Container>
-    <Title bg={myWordsBg} title="PASSION & PERSONALITY" top="30%" left="39%" />
+    <Title bg={myWordsBg} title="PASSION & PERSONALITY" top="26%" left="10%" />
     <BiologyWrapper>
       <AvatarWrapper>
         <Image src={avatar} alt="avatar" />

@@ -10,15 +10,28 @@ export const Container = styled.div`
 
 export const BiologyWrapper = styled.div`
   width: calc(100vw - 200px);
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
+  @media only screen and (min-width: 768px) {
+    width: calc(100vw - 100px);
+    padding: 0 50px;
+  }
+  @media only screen and (min-width: 992px) {
+    width: calc(100vw - 150px);
+    padding: 0 75px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: calc(100vw - 200px);
+    padding: 0 100px;
+  }
 `;
 
 export const AvatarWrapper = styled.div`
-  flex: 1;
+  width: 220px;
   height: 500px;
   overflow: hidden;
   display: flex;
@@ -26,6 +39,17 @@ export const AvatarWrapper = styled.div`
   justify-content: center;
   box-shadow: 8px 10px 10px 3px lightgray;
   margin-right: 20px;
+  @media only screen and (min-width: 768px) {
+    height: 280px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    height: 280px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    height: 280px;
+  }
 `;
 
 export const Image = styled.img`
@@ -42,6 +66,20 @@ export const TitleBiology = styled.h2`
   font-size: 40px;
   font-weight: 300;
   text-align: center;
+  @media only screen and (min-width: 768px) {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const Text = styled.div`
@@ -51,7 +89,17 @@ export const Text = styled.div`
   align-items: center;
   letter-spacing: 0.5px;
   line-height: 28px;
-  font-size: 17px;
+  @media only screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 17px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
 `;
 
 export const StoryWrapper = styled.div`
@@ -66,6 +114,16 @@ export const StoryTitle = styled.h2`
   font-size: 40px;
   font-weight: 300;
   color: wheat;
+  @media only screen and (min-width: 768px) {
+    font-size: 25px;
+  }
+  @media only screen and (min-width: 992px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 40px;
+  }
 `;
 
 export const Story = styled.p`
@@ -76,4 +134,17 @@ export const Story = styled.p`
   line-height: 30px;
   font-size: 19px;
   text-align: justify;
+  @media only screen and (min-width: 768px) {
+    font-size: 17px;
+    width: 80%;
+  }
+  @media only screen and (min-width: 992px) {
+    font-size: 19px;
+    width: 80%;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 19px;
+    width: 70%;
+  }
 `;
