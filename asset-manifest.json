@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Portfolio-CV-Official/static/js/main.4002acd2.js",
+    "main.js": "/Portfolio-CV-Official/static/js/main.91201b63.js",
     "static/media/cv.png": "/Portfolio-CV-Official/static/media/cv.f10ab4350f173dcca024.png",
     "static/media/teetea.png": "/Portfolio-CV-Official/static/media/teetea.c84a76e95d208cb0557e.png",
     "static/media/homeBg.png": "/Portfolio-CV-Official/static/media/homeBg.d08f6778110d215df676.png",
@@ -12,6 +12,7 @@
     "static/media/certificate2021(1).png": "/Portfolio-CV-Official/static/media/certificate2021(1).b4423820e223675d85ee.png",
     "static/media/certificate2021(2).png": "/Portfolio-CV-Official/static/media/certificate2021(2).17601479dbf5181df2cc.png",
     "static/media/myWordsBg.jpg": "/Portfolio-CV-Official/static/media/myWordsBg.291725878756386fd60d.jpg",
+    "static/media/Hackathon.png": "/Portfolio-CV-Official/static/media/Hackathon.dd74c8b0b88b184b7fdb.png",
     "static/media/flagWorld.png": "/Portfolio-CV-Official/static/media/flagWorld.8e67f6db104b92cc538e.png",
     "static/media/educationBg.jpg": "/Portfolio-CV-Official/static/media/educationBg.b2985533a4816d12830e.jpg",
     "static/media/certificate2022(2).jpg": "/Portfolio-CV-Official/static/media/certificate2022(2).8b5bf375d0a7194522a0.jpg",
@@ -20,9 +21,9 @@
     "static/media/LabUniLogo.jpeg": "/Portfolio-CV-Official/static/media/LabUniLogo.097678a5c222edb45eac.jpeg",
     "static/media/coferlogo.jpeg": "/Portfolio-CV-Official/static/media/coferlogo.88855c5872e7613c9f8d.jpeg",
     "index.html": "/Portfolio-CV-Official/index.html",
-    "main.4002acd2.js.map": "/Portfolio-CV-Official/static/js/main.4002acd2.js.map"
+    "main.91201b63.js.map": "/Portfolio-CV-Official/static/js/main.91201b63.js.map"
   },
   "entrypoints": [
-    "static/js/main.4002acd2.js"
+    "static/js/main.91201b63.js"
   ]
 }
