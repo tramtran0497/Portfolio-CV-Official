@@ -2,16 +2,41 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-around;
   width: calc(100vw - 200px);
   padding: 50px 100px;
+  @media only screen and (min-width: 768px) {
+    width: calc(100vw - 100px);
+    padding: 50px 50px 25px 50px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: calc(100vw - 200px);
+    padding: 50px 100px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: calc(100vw - 200px);
+    padding: 50px 100px;
+  }
 `;
 
 export const Copy = styled.p`
   font-size: 15px;
-  flex: 1;
-  margin: 0;
+  position: absolute;
+  align-self: flex-end;
+  @media only screen and (min-width: 768px) {
+    font-size: 13px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 15px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 15px;
+  }
 `;
 
 export const Contact = styled.form`
@@ -26,7 +51,17 @@ export const ContactTitle = styled.h3`
   width: 80%;
   text-align: center;
   font-weight: 300;
-  font-size: 20px;
+  @media only screen and (min-width: 768px) {
+    font-size: 17px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 20px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 24px;
+  }
 `;
 
 export const Input = styled.input`
@@ -57,9 +92,27 @@ export const Button = styled.button`
 
 export const Success = styled.p`
   display: flex;
+  height: 56px;
   align-items: center;
   color: green;
   text-align: center;
+  @media only screen and (min-width: 768px) {
+    width: 500px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: 500px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: 600px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const Social = styled.div`
@@ -68,6 +121,17 @@ export const Social = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  @media only screen and (min-width: 768px) {
+    flex-direction: column;
+  }
+
+  @media only screen and (min-width: 992px) {
+    flex-direction: row;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
 `;
 
 export const SocialItem = styled.div`
@@ -77,5 +141,14 @@ export const SocialItem = styled.div`
   color: black;
   &:hover {
     color: #f8c652;
+  }
+  @media only screen and (min-width: 768px) {
+    margin: 20px 0;
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
   }
 `;

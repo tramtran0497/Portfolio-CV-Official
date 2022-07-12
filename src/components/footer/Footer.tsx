@@ -62,7 +62,9 @@ const Footer: React.FunctionComponent<FooterProps> = () => {
             <AiOutlineCheckCircle style={{ margin: '20px 10px' }} />
             Thanks for sending your words to me! I contact you as soon as possible.
           </Success>
-        ) : null}
+        ) : (
+          <Success></Success>
+        )}
       </Contact>
       <Social>
         <a href="https://hub.docker.com/u/tramtran0497" target="_blank" rel="noreferrer">
