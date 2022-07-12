@@ -7,26 +7,57 @@ const levelAnimation = keyframes`
 `;
 
 export const Container = styled.div`
-  width: 70%;
-  margin: 50px;
-  padding: 50px 100px;
   display: flex;
   flex-direction: column;
   height: max-content;
   background-color: #f2d6f8;
   box-shadow: 5px 6px 7px 1px rgba(166, 166, 166, 0.67);
   position: relative;
+  @media only screen and (min-width: 768px) {
+    width: 60%;
+    padding: 25px 50px;
+    margin: 25px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: 65%;
+    padding: 35px 70px;
+    margin: 35px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: 65%;
+    padding: 50px 100px;
+    margin-top: 50px;
+  }
 `;
 
 export const TitleField = styled.h2`
   font-weight: 300;
   letter-spacing: 5px;
   margin-bottom: 30px;
+  @media only screen and (min-width: 768px) {
+    font-size: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 22px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+  }
 `;
 
 export const ItemSkill = styled.div`
-  width: 80%;
-  margin-left: 100px;
+  width: 100%;
+  margin-left: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -34,13 +65,24 @@ export const ItemSkill = styled.div`
 `;
 
 export const ItemTitle = styled.h3`
-  font-size: 20px;
   font-weight: 300;
-  letter-spacing: 3px;
   line-height: 30px;
   margin-right: 20px;
+  letter-spacing: 2px;
   width: 30%;
+  height: max-content;
   text-align: end;
+  color: #6e0663;
+  @media only screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media only screen and (min-width: 992px) {
+    font-size: 20px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
 `;
 
 type ItemLevelProps = {
@@ -63,7 +105,6 @@ export const ItemLevel = styled.div<ItemLevelProps>`
   }
   border: 1px solid black;
   width: 70%;
-  height: 10px;
   background-color: #f6f6f6;
   border-radius: 30px;
   position: relative;
@@ -84,5 +125,16 @@ export const ItemLevel = styled.div<ItemLevelProps>`
     &::after {
       display: block;
     }
+  }
+
+  @media only screen and (min-width: 768px) {
+    height: 7px;
+  }
+  @media only screen and (min-width: 992px) {
+    height: 8px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    height: 10px;
   }
 `;

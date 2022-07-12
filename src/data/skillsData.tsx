@@ -20,84 +20,84 @@ export const listFrontEnd: List[] = [
     level: '80%',
   },
   {
-    name: 'JAVASCRIPT',
+    name: 'Javascript',
     level: '70%',
   },
   {
-    name: 'TYPESCRIPT',
+    name: 'Typescript',
     level: '60%',
   },
   {
-    name: 'REACT(HOOK)',
+    name: 'React(Hook)',
     level: '70%',
   },
   {
-    name: 'REACT-NATIVE',
+    name: 'React Native',
     level: '30%',
   },
   {
-    name: 'REDUX',
+    name: 'Redux',
     level: '70%',
   },
   {
-    name: 'NEXT.JS',
+    name: 'NextJS',
     level: '70%',
   },
 ];
 
 export const listBackEnd: List[] = [
   {
-    name: 'NODEJS (EXPRESS)',
+    name: 'NodeJS-Express',
     level: '80%',
   },
   {
-    name: 'REST API',
+    name: 'Rest API',
     level: '80%',
   },
   {
-    name: 'MONGODB',
+    name: 'MongoDB',
     level: '80%',
   },
   {
-    name: 'MONGO CLOUD',
+    name: 'MongoDB Cloud',
     level: '70%',
   },
 ];
 
 export const listDevOp: List[] = [
   {
-    name: 'DOCKER',
+    name: 'Docker',
     level: '40%',
   },
 ];
 
 export const listOthers: List[] = [
   {
-    name: 'MATERIALS UI',
+    name: 'Materials UI',
     level: '60%',
   },
   {
-    name: 'BOOTSTRAP',
+    name: 'Bootstrap',
     level: '60%',
   },
   {
-    name: 'RECHARTS',
+    name: 'Recharts',
     level: '30%',
   },
   {
-    name: 'STYLED_COMPONENTS',
+    name: 'Styled-components',
     level: '80%',
   },
   {
-    name: 'CLOUDINARY',
+    name: 'Cloudinary',
     level: '70%',
   },
   {
-    name: 'EMAILJS',
+    name: 'EmailJS',
     level: '80%',
   },
   {
-    name: 'SENDGRID',
+    name: 'SendGrid',
     level: '70%',
   },
 ];
