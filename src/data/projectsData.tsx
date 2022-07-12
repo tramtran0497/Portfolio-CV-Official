@@ -50,5 +50,5 @@ export const profile: ProjectProps = {
   techStacks: ['React(Hook)', 'Styled-components', 'Typescript', 'AOS', 'React-Dom-Route', 'Figma'],
   title: 'Curriculum vitae',
   introText: 'This is my own profile, you can see my whole world through the website.',
-  link: 'https://62cca139679fbd191bc7bfcb--glittery-crumble-e9bdf6.netlify.app/projects',
+  link: 'https://tramtran0497.github.io/Portfolio-CV-Official/',
 };

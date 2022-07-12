@@ -5,6 +5,7 @@ import certificate2 from '../images/certificate2021(2).png';
 import certificate3 from '../images/certificate2021(3).png';
 import certificate4 from '../images/certificate2022(1).png';
 import certificate5 from '../images/certificate2022(2).jpg';
+import certificate6 from '../images/Hackathon.png';
 import Title from '../components/titlePage/Title';
 import certificateBg from '../images/certificateBg.jpg';
 import CertificateCard from '../components/certificateCard/CertificateCard';
@@ -54,6 +55,14 @@ const Certificate: React.FunctionComponent<CertificateProps> = () => (
         top="89%"
         href=""
         rightSide={true}
+      />
+      <CertificateCard
+        image={certificate6}
+        nameImage="certificate6"
+        certificateName="Certificate of Participation Summer Hackathon 2022"
+        top="89%"
+        href=""
+        rightSide={false}
       />
     </Wrapper>
   </Container>
