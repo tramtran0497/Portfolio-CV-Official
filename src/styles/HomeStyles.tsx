@@ -20,15 +20,15 @@ export const Container = styled.div`
   background-size: cover;
 
   @media only screen and (min-width: 768px) {
-    background-size: contain;
-    margin-top: 70px;
-    height: max-content;
+    height: 60vh;
   }
 
   @media only screen and (min-width: 992px) {
+    height: 100vh;
   }
 
   @media only screen and (min-width: 1200px) {
+    height: 100vh;
   }
 `;
 
@@ -40,12 +40,22 @@ export const Wrapper = styled.div`
   justify-content: center;
   margin: 30px;
   @media only screen and (min-width: 768px) {
+    width: 20%;
+    height: 20vh;
+    align-items: flex-end;
+    margin: 20px 30px;
   }
 
   @media only screen and (min-width: 992px) {
+    width: 25%;
+    height: 20vh;
+    margin: 30px;
   }
 
   @media only screen and (min-width: 1200px) {
+    width: 30%;
+    height: 20vh;
+    margin: 30px;
   }
 `;
 
